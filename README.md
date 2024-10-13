@@ -63,7 +63,7 @@ plt.axis('off')
 
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/58ccc150-aba7-4e55-803c-a43556ec0e71)
+![image](https://github.com/user-attachments/assets/223c16ce-7de5-449e-a3de-a3b004f3ef9c)
 
 ## Erode the image
 ```python
