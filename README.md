@@ -25,6 +25,7 @@ Apply the erosion operation on the image using cv2.erode() with the defined stru
 ### Import the necessary packages
 ``` Python
 import cv2
+import numpy as np
 import matplotlib.pyplot as plt
 
 # Create a blank image (100 pixels high and 400 pixels wide)
@@ -62,7 +63,7 @@ plt.axis('off')
 
 plt.show()
 ```
-![image](https://github.com/user-attachments/assets/0acc80d4-d134-4bba-ad3f-086c24b92043)
+![image](https://github.com/user-attachments/assets/58ccc150-aba7-4e55-803c-a43556ec0e71)
 
 ## Erode the image
 ```python
@@ -72,7 +73,7 @@ plt.imshow(eroded_image, cmap='gray')
 plt.title('Eroded Image')
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/77a86491-44d6-4e0a-9da9-b5556209ab23)
+![image](https://github.com/user-attachments/assets/b5050b16-661f-4534-a0e0-5662d6d4bc6f)
 
 ## Dilate the image
 ```python
@@ -82,7 +83,7 @@ plt.imshow(dilated_image, cmap='gray')
 plt.title('Dilated Image')
 plt.axis('off')
 ```
-![image](https://github.com/user-attachments/assets/460e88b6-5c76-4ddd-90a7-dc10689b2522)
+![image](https://github.com/user-attachments/assets/bdef73b0-1066-4fe8-aab7-c8aade1f03ea)
 
 ## Result
 Thus the generated text image is eroded and dilated using python and OpenCV.
